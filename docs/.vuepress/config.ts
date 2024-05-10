@@ -34,6 +34,7 @@ const navBar: NavItem[] = [
 export default defineUserConfig({
   // 请不要忘记设置默认语言
   lang: 'zh-CN',
+  base: "/research-notebook/",
   theme: plumeTheme({
     notes: {link: '/', dir: '/notes/', notes: notes},
     navbar: navBar,
