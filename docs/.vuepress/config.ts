@@ -2,6 +2,8 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { NavItem, NotesItemOptions, plumeTheme } from 'vuepress-theme-plume'
 
+import { autoCategoryPlugin } from './auto-category-plugin'
+
 
 const notes: NotesItemOptions[] = [
     {
@@ -39,5 +41,8 @@ export default defineUserConfig({
     notes: {link: '/', dir: '/notes/', notes: notes},
     navbar: navBar,
   }),
+  plugins: [
+    autoCategoryPlugin
+  ],
   bundler: viteBundler(),
 })
