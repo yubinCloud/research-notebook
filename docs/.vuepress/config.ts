@@ -15,6 +15,11 @@ const notes: NotesItemOptions[] = [
         dir: 'RAG',
         link: '/category/RAG/',
         sidebar: 'auto',
+    },
+    {
+        dir: 'Text2SQL',
+        link: '/category/Text2SQL/',
+        sidebar: 'auto'
     }
 ]
 
@@ -29,6 +34,11 @@ const navBar: NavItem[] = [
         text: 'RAG',
         icon: 'carbon:idea',
         link: '/category/RAG/',
+    },
+    {
+        text: 'Text2SQL',
+        icon: 'maki:religious-muslim',
+        link: '/category/Text2SQL/'
     }
 ]
 
