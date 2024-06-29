@@ -36,6 +36,11 @@ const navBar: NavItem[] = [
         link: '/category/LM/',
     },
     {
+        text: 'LLM 评估',
+        icon: 'ep:finished',
+        link: '/category/LLM-evaluation/',
+    },
+    {
         text: 'RAG',
         icon: 'carbon:idea',
         link: '/category/RAG/',
