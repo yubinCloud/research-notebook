@@ -12,6 +12,11 @@ const notes: NotesItemOptions[] = [
         sidebar: 'auto',
     },
     {
+        dir: 'LLM 评估',
+        link: '/category/LLM-evaluation/',
+        sidebar: 'auto',
+    },
+    {
         dir: 'RAG',
         link: '/category/RAG/',
         sidebar: 'auto',
